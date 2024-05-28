@@ -6,7 +6,7 @@ body {
   background-color: rgb(240, 233, 224);
   border-color: rgb(43, 19, 2);
 }
-  
+
 #main-doc {
   margin-left: 20%;
   padding: 20px;
@@ -39,9 +39,9 @@ body {
   margin-bottom: 10px;
 }
     
-@media (max-width: 768px) {
+@media(max-width: 768px) {
 #navbar {
-  width: 100%;
+  width: 70%;
   height: auto;
   position: static;
 }
