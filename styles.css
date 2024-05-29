@@ -10,7 +10,7 @@ body {
 #main-doc {
   margin-left: 20%;
   padding: 20px;
-} 
+}
 
 .main-section {
   margin-bottom: 40px;
@@ -45,13 +45,13 @@ body {
   height: auto;
   position: static;
 }
+}
 
 #main-doc {
   margin-left: 0;
 }
-
-    } 
-    #navbar {
+ 
+#navbar {
     width: 20%;
   height: 100%;
   background-color: #edddc7;
@@ -80,4 +80,3 @@ body {
 #navbar a:hover {
   background-color: whitesmoke;
 }
-  
