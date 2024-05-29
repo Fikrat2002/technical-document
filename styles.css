@@ -1,6 +1,6 @@
 body {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 18;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   background-color: rgb(240, 233, 224);
@@ -11,36 +11,36 @@ body {
   margin-left: 20%;
   padding: 20px;
 }
-    
+  
 .main-section {
   margin-bottom: 40px;
 }
-    
+  
 .main-section header {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
-    
+  
 .main-section p {
   line-height: 1.5;
   margin-bottom: 10px;
 }
-    
+  
 .main-section code {
   background-color: #f1f1f1;
   padding: 10px;
   display: block;
   margin-bottom: 10px;
 }
-    
+  
 .main-section ul {
   margin-left: 20px;
   margin-bottom: 10px;
 }
-    
-@media(max-width: 768px) {
-#navbar {
+  
+@media (max-width: 768px) {
+  #navbar {
   width: 70%;
   height: auto;
   position: static;
@@ -50,39 +50,34 @@ body {
   margin-left: 0;
 }
 }
-
+  
 #navbar {
-  width: 100%;
-  height: auto;
-  position: static;
-}
-
-#navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 20%;
   height: 100%;
   background-color: #edddc7;
+  position: fixed;
+  top: 0;
+  left: 0;
   overflow-x: hidden;
   padding-top: 20px;
 }
-
+  
 #navbar header {
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
   padding: 0 20px;
 }
-
+  
 #navbar a {
-  font-size: 20;
+  font-size: 20px; 
   display: block;
   color: #333;
   text-decoration: none;
   padding: 10px 20px;
 }
-
+  
 #navbar a:hover {
   background-color: whitesmoke;
-}  
+}
+  
