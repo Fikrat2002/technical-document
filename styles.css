@@ -40,17 +40,13 @@ body {
 }
 
 @media (max-width: 768px) {
-    #navbar {
+  #navbar {
     width: 40%;
     height: auto;
     position: static;
   }
 }
   
-    #main-doc {
-    margin-left: 0;
-} 
-
 #navbar {
   width: 20%;
   height: 100%;
